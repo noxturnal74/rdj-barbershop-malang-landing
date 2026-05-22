@@ -3,108 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>R Dwiejhaya Barbershop | Barbershop</title>
-  <meta name="description" content="A grooming page that gives RDJ more premium positioning: consultation, style direction, color upgrade, and easy appointment flow.">
+  <title>R Dwiejhaya Barbershop | Style and color barbershop</title>
+  <meta name="description" content="Position RDJ around consultation, hair color, and transformation confidence.">
   <meta property="og:title" content="R Dwiejhaya Barbershop">
-  <meta property="og:description" content="A grooming page that gives RDJ more premium positioning: consultation, style direction, color upgrade, and easy appointment flow.">
+  <meta property="og:description" content="Position RDJ around consultation, hair color, and transformation confidence.">
   <meta property="og:image" content="./assets/hero.svg">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body class="theme-barber-blue">
-  <header class="site-header">
+<body class="theme-rdj" data-layout="rdj" data-motion-profile="rdj">
+  <header class="site-header rdj-nav">
     <a class="logo-lockup" href="#top" aria-label="R Dwiejhaya Barbershop home">
       <img src="./assets/logo.svg" alt="Logo R Dwiejhaya Barbershop" data-fallback-logo>
       <span class="logo-fallback">RDJ</span>
       <strong>R Dwiejhaya Barbershop</strong>
     </a>
-    <nav aria-label="Primary"><a href="#style">Style</a><a href="#color">Color</a><a href="#price-list">Prices</a><a href="#location">Book</a></nav>
+    <nav aria-label="Primary"><a href="#diagnostic">Style Lab</a><a href="#color">Color</a><a href="#loyalty">Loyalty</a><a href="#visit">Book</a></nav>
   </header>
-
   <main id="top">
-    <section class="hero" style="--hero-image:url('./assets/hero.svg')">
-      <div class="hero-overlay"></div>
-      <div class="hero-copy">
-        <p class="eyebrow">Premium haircut, hairstyle, and color</p>
-        <h1>A style-first barbershop page for cuts, looks, and color upgrades.</h1>
-        <p>A grooming page that gives RDJ more premium positioning: consultation, style direction, color upgrade, and easy appointment flow.</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/rdjbarbershop" target="_blank" rel="noreferrer">Book Style Session</a>
-          <a class="button ghost" href="https://www.instagram.com/rdjbarbershop" target="_blank" rel="noreferrer">Open Instagram</a>
-        </div>
-      </div>
-      <aside class="identity-card">
-        <img src="./assets/logo.svg" alt="" data-fallback-logo>
-        <span class="logo-fallback big">RDJ</span>
-        <em>Apple-style style consultation landing</em>
-        <p>S. Supriyadi grooming route</p>
-        <strong>Barbershop</strong>
-      </aside>
+    <section class="rdj-hero" style="--hero-image:url('./assets/hero.svg')">
+      <div><p class="eyebrow">Haircut / hairstyle / hair color</p><h1>Start with consultation. Leave with a sharper direction.</h1><p>Position RDJ around consultation, hair color, and transformation confidence.</p></div>
+      <div class="diagnostic-card"><span>Style diagnostic</span><button type="button">Style quiz</button><button type="button">Color consult</button><button type="button">Transformation gallery</button><button type="button">Aftercare notes</button></div>
     </section>
-
-    <section class="visual-strip" aria-label="R Dwiejhaya Barbershop campaign visuals">
-      <figure style="--image:url('./assets/gallery-1.svg')"><figcaption>Style Consultation</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-2.svg')"><figcaption>Hair Color</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-3.svg')"><figcaption>Packages</figcaption></figure>
+    <section id="diagnostic" class="style-lab">
+      <div><p class="eyebrow">Before the chair</p><h2>Face shape, texture, reference photo, and finish are part of the experience.</h2></div>
+      <ol><li>Choose style intent</li><li>Book consult</li><li>Confirm color/cut plan</li><li>Finish with styling</li><li>Receive aftercare note</li></ol>
     </section>
-
-    <section class="source-insights" aria-label="R Dwiejhaya Barbershop public research">
-      <div class="insight-copy">
-        <p class="eyebrow">Field Notes</p>
-        <h2>Make RDJ feel more premium through haircut, hairstyle, color, booking, and visual style direction.</h2>
-        <p>Design direction: Apple-style style consultation landing.</p>
-        <div class="source-links"><a href="https://linktr.ee/rdjbarbershop" target="_blank" rel="noreferrer">RDJ Linktree</a><a href="https://www.instagram.com/rdjbarbershop" target="_blank" rel="noreferrer">RDJ Instagram</a></div>
-      </div>
-      <div class="insight-grid">
-        <article><span>01</span><p>Public profile positions RDJ as a premium barbershop with haircut, hairstyle, and hair color.</p></article><article><span>02</span><p>Booking schedule, WhatsApp, Instagram, and TikTok links support appointment-led conversion.</p></article><article><span>03</span><p>S. Supriyadi address gives a clear local destination for chair reservations.</p></article>
-      </div>
+    <section id="color" class="color-board"><article><span>Clean Cut</span><strong>from Rp45k</strong><p>shape and finish</p></article><article><span>Style Session</span><strong>from Rp75k</strong><p>consult and styling</p></article><article><span>Color Upgrade</span><strong>from Rp180k</strong><p>consulted color plan</p></article></section>
+    <section id="loyalty" class="transformation-proof">
+      <article><span>01</span><p>Public profile positions RDJ as premium haircut, hairstyle, and color.</p></article><article><span>02</span><p>Booking and social paths support appointment-led conversion.</p></article><article><span>03</span><p>Address gives clear local destination.</p></article>
+      <div class="chip-wall"><span>Style quiz</span><span>Color consult</span><span>Transformation gallery</span><span>Aftercare notes</span><span>Loyalty plan</span></div>
     </section>
-
-    <section id="style" class="brand-section section-1">
-      <div class="section-copy">
-        <p class="eyebrow">Style Consultation</p>
-        <h2>Help customers choose a look before they enter the chair.</h2>
+    <section id="visit" class="visit-panel">
+    <div>
+      <p class="eyebrow">Visit / Contact</p>
+      <h2>Jl. S. Supriyadi No.82, Bandungrejosari, Malang</h2>
+      <p>Daily 10:00-21:00, color consultation by booking</p>
+      <p>WhatsApp via Linktree</p>
+      <div class="actions">
+        <a class="button primary" href="https://linktr.ee/rdjbarbershop" target="_blank" rel="noreferrer">Open Official Profile</a>
+        <a class="button ghost" href="https://www.instagram.com/rdjbarbershop" target="_blank" rel="noreferrer">Instagram</a>
       </div>
-      <div class="section-panel">
-        <article><span>RDJ</span><strong>Face-shape direction</strong></article><article><span>RDJ</span><strong>Hair texture check</strong></article><article><span>RDJ</span><strong>Finish recommendation</strong></article>
-      </div>
-    </section><section id="color" class="brand-section section-2">
-      <div class="section-copy">
-        <p class="eyebrow">Hair Color</p>
-        <h2>Color service gets its own stage and pricing logic.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>RDJ</span><strong>Color consult</strong></article><article><span>RDJ</span><strong>Bleach planning</strong></article><article><span>RDJ</span><strong>Aftercare guidance</strong></article>
-      </div>
-    </section><section id="price-list" class="brand-section section-3">
-      <div class="section-copy">
-        <p class="eyebrow">Packages</p>
-        <h2>Simple tiers for quick appointment decisions.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>RDJ</span><strong>Clean Cut</strong></article><article><span>RDJ</span><strong>Style Session</strong></article><article><span>RDJ</span><strong>Color Upgrade</strong></article>
-      </div>
-    </section>
-
-    <section id="location" class="location">
-      <div>
-        <p class="eyebrow">Book</p>
-        <h2>Jl. S. Supriyadi No.82, Bandungrejosari, Malang</h2>
-        <p>WhatsApp via Linktree</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/rdjbarbershop" target="_blank" rel="noreferrer">Book Style Session</a>
-          <a class="button ghost" href="https://linktr.ee/rdjbarbershop" target="_blank" rel="noreferrer">Public profile</a>
-        </div>
-      </div>
-      <iframe title="R Dwiejhaya Barbershop map" src="https://www.google.com/maps?q=Jl.%20S.%20Supriyadi%20No.82%2C%20Bandungrejosari%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    </div>
+    <iframe title="R Dwiejhaya Barbershop map" src="https://www.google.com/maps?q=Jl.%20S.%20Supriyadi%20No.82%2C%20Bandungrejosari%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
   </main>
-
   <footer>
-    <span>R Dwiejhaya Barbershop website concept, tailored for Barbershop.</span>
+    <span>It sells decision support before the haircut.</span>
     <a href="https://wa.me/6289506753131?text=Halo%20Albert,%20saya%20mau%20dibuatkan%20website%20brand%20seperti%20demo%20ini." target="_blank" rel="noreferrer">Website by Albert Saputra</a>
   </footer>
-
   <script src="./script.js"></script>
 </body>
 </html>

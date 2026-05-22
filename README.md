@@ -1,36 +1,34 @@
 # R Dwiejhaya Barbershop
 
-Standalone landing page for Barbershop.
+Production-grade single-page concept for Style and color barbershop.
 
-## Design concept
+## Visual philosophy
 
-Apple-style style consultation landing
+Clean style lab with diagnostic cards, transformation strips, and airy blue editorial spacing.
 
-## Conversion goal
+## Business logic
 
-Make RDJ feel more premium through haircut, hairstyle, color, booking, and visual style direction.
+Position RDJ around consultation, hair color, and transformation confidence.
 
-## Deployment notes
+## Storytelling structure
 
-- Static site entry: `index.html`
-- Local assets: `assets/`
-- Asset paths use relative `./assets/...`
-- `vercel.json` keeps `outputDirectory` at `.`
-- Logo fallback is handled in `script.js`
-- Hero fallback is a CSS gradient behind `./assets/hero.svg`
-- Parallax uses `requestAnimationFrame` in `script.js`
+Visitor answers style intent, sees consultation process, checks color plan, then books a session.
 
-## Brand-specific sections
+## Motion system
 
-- Style Consultation: Help customers choose a look before they enter the chair.
-- Hair Color: Color service gets its own stage and pricing logic.
-- Packages: Simple tiers for quick appointment decisions.
+Soft panel slide, diagnostic selector, color-swatch hover.
 
-## Public research injected
+## Conversion strategy
 
-- Public profile positions RDJ as a premium barbershop with haircut, hairstyle, and hair color.
-- Booking schedule, WhatsApp, Instagram, and TikTok links support appointment-led conversion.
-- S. Supriyadi address gives a clear local destination for chair reservations.
+Primary route is style session booking; secondary route is color consultation.
+
+## Operational content included
+
+- Hours: Daily 10:00-21:00, color consultation by booking
+- Contact: WhatsApp via Linktree
+- Pricing/offer cards: Clean Cut from Rp45k, Style Session from Rp75k, Color Upgrade from Rp180k
+- Workflow: Choose style intent -> Book consult -> Confirm color/cut plan -> Finish with styling -> Receive aftercare note
+- Policies: Color service requires consultation. / Reference photos are used as direction, not exact guarantee. / Booking confirmed through official profile.
 
 ## Source links
 

@@ -3,18 +3,93 @@ export const brandConfig = {
   "repo": "rdj-barbershop-malang-landing",
   "brandName": "R Dwiejhaya Barbershop",
   "monogram": "RDJ",
-  "category": "Barbershop",
-  "location": "S. Supriyadi grooming route",
+  "layout": "rdj",
+  "category": "Style and color barbershop",
   "address": "Jl. S. Supriyadi No.82, Bandungrejosari, Malang",
   "contact": "WhatsApp via Linktree",
+  "hours": "Daily 10:00-21:00, color consultation by booking",
   "publicLink": "https://linktr.ee/rdjbarbershop",
   "instagram": "https://www.instagram.com/rdjbarbershop",
-  "designConcept": "Apple-style style consultation landing",
-  "conversionGoal": "Make RDJ feel more premium through haircut, hairstyle, color, booking, and visual style direction.",
-  "proofPoints": [
-    "Public profile positions RDJ as a premium barbershop with haircut, hairstyle, and hair color.",
-    "Booking schedule, WhatsApp, Instagram, and TikTok links support appointment-led conversion.",
-    "S. Supriyadi address gives a clear local destination for chair reservations."
+  "theme": {
+    "bg": "#eef7fb",
+    "ink": "#0b1320",
+    "muted": "#526071",
+    "accent": "#71c7ec",
+    "accent2": "#f1c453",
+    "panel": "#ffffff"
+  },
+  "dna": {
+    "visual": "Clean style lab with diagnostic cards, transformation strips, and airy blue editorial spacing.",
+    "business": "Position RDJ around consultation, hair color, and transformation confidence.",
+    "story": "Visitor answers style intent, sees consultation process, checks color plan, then books a session.",
+    "emotion": "Modern, clean, advisory, aspirational.",
+    "type": "Modern grotesk with precise editorial display sizing.",
+    "motion": "Soft panel slide, diagnostic selector, color-swatch hover.",
+    "layout": "Consultation lab and transformation board, not a standard barber brochure.",
+    "conversion": "Primary route is style session booking; secondary route is color consultation.",
+    "photo": "Before-after transformations, hair texture close-ups, color swatches, clean chair scenes.",
+    "unique": "It sells decision support before the haircut."
+  },
+  "metrics": [
+    "Premium barbershop",
+    "Haircut, hairstyle, hair color",
+    "Booking schedule path",
+    "S. Supriyadi location"
+  ],
+  "packages": [
+    {
+      "name": "Clean Cut",
+      "price": "from Rp45k",
+      "note": "shape and finish"
+    },
+    {
+      "name": "Style Session",
+      "price": "from Rp75k",
+      "note": "consult and styling"
+    },
+    {
+      "name": "Color Upgrade",
+      "price": "from Rp180k",
+      "note": "consulted color plan"
+    }
+  ],
+  "operations": [
+    "Style quiz",
+    "Color consult",
+    "Transformation gallery",
+    "Aftercare notes",
+    "Loyalty plan"
+  ],
+  "workflow": [
+    "Choose style intent",
+    "Book consult",
+    "Confirm color/cut plan",
+    "Finish with styling",
+    "Receive aftercare note"
+  ],
+  "proof": [
+    "Public profile positions RDJ as premium haircut, hairstyle, and color.",
+    "Booking and social paths support appointment-led conversion.",
+    "Address gives clear local destination."
+  ],
+  "team": [
+    "Style consultant",
+    "Color barber",
+    "Aftercare advisor"
+  ],
+  "testimonials": [
+    "Konsultasi bentuk wajah membantu pilih model.",
+    "Color plan lebih aman karena dijelaskan dulu."
+  ],
+  "faqs": [
+    "Do you consult before color?",
+    "Can I bring a reference photo?",
+    "How do aftercare notes work?"
+  ],
+  "policies": [
+    "Color service requires consultation.",
+    "Reference photos are used as direction, not exact guarantee.",
+    "Booking confirmed through official profile."
   ],
   "sourceLinks": [
     {
@@ -25,58 +100,7 @@ export const brandConfig = {
       "label": "RDJ Instagram",
       "url": "https://www.instagram.com/rdjbarbershop"
     }
-  ],
-  "theme": {
-    "bg": "#0d1117",
-    "accent": "#71c7ec",
-    "accent2": "#fef3b4",
-    "paper": "#f7fbff"
-  },
-  "nav": [
-    "Style",
-    "Color",
-    "Prices",
-    "Book"
-  ],
-  "hero": {
-    "eyebrow": "Premium haircut, hairstyle, and color",
-    "title": "A style-first barbershop page for cuts, looks, and color upgrades.",
-    "body": "A grooming page that gives RDJ more premium positioning: consultation, style direction, color upgrade, and easy appointment flow.",
-    "cta": "Book Style Session"
-  },
-  "sections": [
-    {
-      "id": "style",
-      "kicker": "Style Consultation",
-      "title": "Help customers choose a look before they enter the chair.",
-      "items": [
-        "Face-shape direction",
-        "Hair texture check",
-        "Finish recommendation"
-      ]
-    },
-    {
-      "id": "color",
-      "kicker": "Hair Color",
-      "title": "Color service gets its own stage and pricing logic.",
-      "items": [
-        "Color consult",
-        "Bleach planning",
-        "Aftercare guidance"
-      ]
-    },
-    {
-      "id": "price-list",
-      "kicker": "Packages",
-      "title": "Simple tiers for quick appointment decisions.",
-      "items": [
-        "Clean Cut",
-        "Style Session",
-        "Color Upgrade"
-      ]
-    }
-  ],
-  "layout": "barber-blue"
+  ]
 } as const;
 
 export type BrandConfig = typeof brandConfig;
