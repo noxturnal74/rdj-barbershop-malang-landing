@@ -9,6 +9,23 @@ export const brandConfig = {
   "contact": "WhatsApp via Linktree",
   "publicLink": "https://linktr.ee/rdjbarbershop",
   "instagram": "https://www.instagram.com/rdjbarbershop",
+  "designConcept": "Apple-style style consultation landing",
+  "conversionGoal": "Make RDJ feel more premium through haircut, hairstyle, color, booking, and visual style direction.",
+  "proofPoints": [
+    "Public profile positions RDJ as a premium barbershop with haircut, hairstyle, and hair color.",
+    "Booking schedule, WhatsApp, Instagram, and TikTok links support appointment-led conversion.",
+    "S. Supriyadi address gives a clear local destination for chair reservations."
+  ],
+  "sourceLinks": [
+    {
+      "label": "RDJ Linktree",
+      "url": "https://linktr.ee/rdjbarbershop"
+    },
+    {
+      "label": "RDJ Instagram",
+      "url": "https://www.instagram.com/rdjbarbershop"
+    }
+  ],
   "theme": {
     "bg": "#0d1117",
     "accent": "#71c7ec",
