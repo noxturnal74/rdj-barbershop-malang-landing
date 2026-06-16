@@ -1,36 +1,28 @@
 # R Dwiejhaya Barbershop
 
-Production-grade single-page concept for Style and color barbershop.
+Production-level static landing page for Local barbershop / grooming service.
 
-## Visual philosophy
+## Included
 
-Clean style lab with diagnostic cards, transformation strips, and airy blue editorial spacing.
+- Stable photo-driven hero and gallery
+- Business-specific packages, hours, policies, reviews, FAQ, and CTA journey
+- Mobile navigation
+- Scroll reveal
+- Active nav state
+- Gallery lightbox
+- Booking/contact modal
+- Filters/tabs/selectors
+- Dynamic business status
+- WhatsApp message generator
+- Strict validation script
 
-## Business logic
+## Local validation
 
-Position RDJ around consultation, hair color, and transformation confidence.
+```powershell
+npm run validate
+npm run build
+```
 
-## Storytelling structure
+## Live target
 
-Visitor answers style intent, sees consultation process, checks color plan, then books a session.
-
-## Motion system
-
-Soft panel slide, diagnostic selector, color-swatch hover.
-
-## Conversion strategy
-
-Primary route is style session booking; secondary route is color consultation.
-
-## Operational content included
-
-- Hours: Daily 10:00-21:00, color consultation by booking
-- Contact: WhatsApp via Linktree
-- Pricing/offer cards: Clean Cut from Rp45k, Style Session from Rp75k, Color Upgrade from Rp180k
-- Workflow: Choose style intent -> Book consult -> Confirm color/cut plan -> Finish with styling -> Receive aftercare note
-- Policies: Color service requires consultation. / Reference photos are used as direction, not exact guarantee. / Booking confirmed through official profile.
-
-## Source links
-
-- RDJ Linktree: https://linktr.ee/rdjbarbershop
-- RDJ Instagram: https://www.instagram.com/rdjbarbershop
+https://rdj-barbershop-malang-landing.vercel.app
